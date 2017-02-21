@@ -1,5 +1,7 @@
 # Javascript Guidelines
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam pellentesque placerat. Quisque vulputate enim eget molestie dapibus. Vivamus justo est, lacinia vitae odio non, malesuada tincidunt justo. In a nisl eget ex egestas dictum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sollicitudin sagittis fringilla. Praesent cursus eros ut justo pellentesque, scelerisque porttitor neque dignissim.
+
 1. [File Structure](#file-structure)
 2. [Indentation](#identation)
 3. [Comments](#comments)
@@ -18,6 +20,14 @@ TODO
 ```
 
 ## Identation
+- Code Should be indented with tabs.
+- Braces should be on their own lines :
+  ```
+  while(x == y)
+  {
+  \tsomething();
+  }
+  ```
 
 ```
 TODO
