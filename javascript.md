@@ -20,14 +20,36 @@ TODO
 ```
 
 ## Identation
-- Code Should be indented with tabs.
-- Braces should be on their own lines :
-  ```
-  while(x == y)
-  {
-  \tsomething();
-  }
-  ```
+- Indentation with tabs `\t`.
+- No whitespace at the end of line or on blank lines.
+- Lines should usually be no longer than 80 characters, and should not exceed 100 (counting tabs as 4 spaces).
+- Braces on their own lines for `if`, `else`, `for`, `while`, `try` blocks.
+- Unary special-character operators (e.g., `++`, `--`) must not have space next to their operand.
+- Any `,` and `;` must not have preceding space.
+- Any `;` used as a statement terminator must be at the end of the line.
+- Any `:` after a property name in an object definition must not have preceding space.
+- The `?` and `:` in a ternary conditional must have space on both sides.
+- No filler spaces in empty constructs (e.g., `{}`, `[]`, `fn()`).
+- No new lines at the end of file.
+- Any `!` negation operator must not have a following space.
+- All function bodies are indented by one tab, even if the entire file is wrapped in a closure.
+
+### Very Wrong
+
+```
+
+function() {
+
+ while (x==y)
+ {
+          do();
+ }
+
+
+} ;
+
+
+```
 
 ```
 TODO
